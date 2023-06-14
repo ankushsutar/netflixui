@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Movies from "./components/Movies";
 import Hero from "./components/Hero";
-import Header from './components/Header';
 
 const URL = "https://api.themoviedb.org/3";
 const API_KEY = "0fff7ae028712a9f64c64c22cfe67133";
